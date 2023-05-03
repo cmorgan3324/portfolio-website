@@ -1,0 +1,116 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gulim", sans-serif;
+}
+
+/* Set image size */
+img {
+  height: 500px;
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Set body background and text color */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Set header styles */
+header {
+  padding: 1rem;
+  text-align: center;
+  background-color: #323232;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0f0;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Set main styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0f0;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+section ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+section li {
+  margin-bottom: 1rem;
+}
+
+section li p {
+  font-size: 25px;
+  color: #fff;
+}
+
+/* Set footer styles */
+footer {
+  background-color: #323232;
+  padding: 1rem;
+  text-align: center;
+  color: #0f0;
+}
+
+/* Set link styles */
+a {
+  color: #0f0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f0;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #0f0;
+}
+
+/* Set HR styles */
+hr {
+  border-top: 1px solid #0f0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Set section header hover effect */
+section h2:hover {
+  color: #0f0;
+  text-shadow: 0px 0px 10px #0f0;
+}
